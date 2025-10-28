@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo ' Fetching frontend code from GitHub...'
                 deleteDir()
-                git branch: 'main', url: 'https://github.com/kaviya-sharon14/onlyfrontend.git'
+                git branch: 'main', url: 'https://github.com/kaviya-sharon14/devops-sem-lab2.git'
             }
         }
 
